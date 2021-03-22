@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#535151"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="@string/hello_world"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/title_purple" />
+
+    <TextView
+        android:text="@string/hello_world"
+        android:layout_margin="24dp"
+        android:padding="16dp"
+        android:visibility="invisible"
+        tools:visibility="visible"
+        style="@style/title_purple"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RadioButton
+        style="@style/title_purple"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ola_radio_button" />
+
+    <CheckBox
+        style="@style/title_purple"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ol_checkbox" />
+
+</LinearLayout>
