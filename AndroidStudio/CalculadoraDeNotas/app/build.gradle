@@ -6,7 +6,7 @@ plugins {
 
 android {
     compileSdkVersion 30
-    buildToolsVersion "30.0.3"
+    buildToolsVersion '31.0.0 rc2'
 
     defaultConfig {
         applicationId "com.example.helloworld"
@@ -19,7 +19,11 @@ android {
     }
 
     buildTypes {
+        customDebugType{
+            debuggable true
+        }
         release {
+            debuggable true
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
