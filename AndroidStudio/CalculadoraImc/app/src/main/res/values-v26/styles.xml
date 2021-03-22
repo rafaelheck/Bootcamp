@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="edit_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:paddingVertical">12dp</item>
+        <item name="android:layout_marginHorizontal">44dp</item>
+        <item name="android:background">@color/edit_text_background</item>
+    </style>
+</resources>
